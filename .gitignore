@@ -1,0 +1,9 @@
+.venv/
+cache/
+data/
+__pycache__/
+*.pyc
+nb_cache/
+*.zip
+.DS_Store
+question.txt

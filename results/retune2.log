@@ -1,0 +1,27 @@
+=== baseline ===
+  current                          dim=128  dev= 1.02%  loo= 3.67%  bkg= 4.11%   MEAN= 2.93%
+
+=== feature dimension / compression ===
+  nceps=13 (DCT)                   dim= 48  dev= 3.69%  loo= 5.84%  bkg= 4.35%   MEAN= 4.63%
+  nceps=20 (DCT)                   dim= 76  dev= 2.04%  loo= 5.15%  bkg= 3.20%   MEAN= 3.46%
+  nbands=24 raw                    dim= 96  dev= 2.04%  loo= 3.44%  bkg= 3.26%   MEAN= 2.91%
+  nbands=40 raw                    dim=160  dev= 1.84%  loo= 3.44%  bkg= 3.26%   MEAN= 2.85%
+  nbands=48 raw                    dim=192  dev= 2.55%  loo= 4.47%  bkg= 2.28%   MEAN= 3.10%
+  nbands=20 raw                    dim= 80  dev= 2.04%  loo= 3.55%  bkg= 3.26%   MEAN= 2.95%
+  no deltas                        dim= 64  dev= 1.60%  loo= 4.12%  bkg= 4.35%   MEAN= 3.36%
+  deltas=2                         dim=192  dev= 2.55%  loo= 4.58%  bkg= 3.20%   MEAN= 3.44%
+
+=== framing ===
+  hop2                             dim=128  dev= 1.66%  loo= 3.78%  bkg= 3.31%   MEAN= 2.92%
+  hop4                             dim=128  dev= 1.23%  loo= 3.78%  bkg= 3.42%   MEAN= 2.81%
+  hop5                             dim=128  dev= 1.53%  loo= 3.44%  bkg= 3.31%   MEAN= 2.76%
+  win20                            dim=128  dev= 1.23%  loo= 2.98%  bkg= 3.26%   MEAN= 2.49%
+  win32                            dim=128  dev= 2.04%  loo= 4.47%  bkg= 4.35%   MEAN= 3.62%
+  nfft1024                         dim=128  dev= 1.47%  loo= 3.09%  bkg= 2.17%   MEAN= 2.25%
+
+=== normalisation / vad ===
+  cmvn none                        dim=128  dev= 2.03%  loo= 3.78%  bkg= 3.42%   MEAN= 3.08%
+  cmvn mv                          dim=128  dev= 4.59%  loo=11.11%  bkg= 4.35%   MEAN= 6.68%
+  vad25                            dim=128  dev= 1.47%  loo= 3.09%  bkg= 2.85%   MEAN= 2.47%
+  vad40                            dim=128  dev= 2.55%  loo= 3.32%  bkg= 2.17%   MEAN= 2.68%
+  magw off                         dim=128  dev= 3.32%  loo= 6.41%  bkg= 4.35%   MEAN= 4.69%

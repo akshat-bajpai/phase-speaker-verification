@@ -1,0 +1,30 @@
+FDPD n1024 w25         raw         dev= 7.65%  devrot= 7.14% (rotmean  7.02%)  bkgcv= 8.70% (rotmean  9.11%)  ==>  7.92%
+FDPD n1024 w25         tnorm       dev= 6.63%  devrot= 6.79% (rotmean  6.75%)  bkgcv= 7.66% (rotmean  8.10%)  ==>  7.22%
+FDPD n1024 w25         asnorm100   dev= 6.63%  devrot= 6.31% (rotmean  6.39%)  bkgcv= 8.42% (rotmean  8.09%)  ==>  7.37%
+FDPD n1024 w25         asnormE50   dev= 6.51%  devrot= 6.38% (rotmean  6.59%)  bkgcv= 8.14% (rotmean  8.07%)  ==>  7.26%
+FDPD n1024 w25         asnormE100  dev= 6.12%  devrot= 6.28% (rotmean  6.27%)  bkgcv= 8.05% (rotmean  8.04%)  ==>  7.16%
+   [416s]
+FDPD n2048 w32         raw         dev= 6.63%  devrot= 7.30% (rotmean  7.23%)  bkgcv= 9.51% (rotmean  9.24%)  ==>  8.40%
+FDPD n2048 w32         tnorm       dev= 5.61%  devrot= 6.79% (rotmean  6.78%)  bkgcv= 8.42% (rotmean  8.18%)  ==>  7.60%
+FDPD n2048 w32         asnorm100   dev= 5.10%  devrot= 6.47% (rotmean  6.55%)  bkgcv= 8.42% (rotmean  8.12%)  ==>  7.45%
+FDPD n2048 w32         asnormE50   dev= 5.61%  devrot= 6.53% (rotmean  6.58%)  bkgcv= 8.42% (rotmean  8.12%)  ==>  7.48%
+FDPD n2048 w32         asnormE100  dev= 5.61%  devrot= 6.48% (rotmean  6.56%)  bkgcv= 8.15% (rotmean  8.12%)  ==>  7.32%
+   [263s]
+GDCC exact n1024 w25   raw         dev= 7.14%  devrot= 6.84% (rotmean  6.75%)  bkgcv= 5.87% (rotmean  6.45%)  ==>  6.35%
+GDCC exact n1024 w25   tnorm       dev= 5.10%  devrot= 5.51% (rotmean  5.48%)  bkgcv= 5.72% (rotmean  6.01%)  ==>  5.62%
+GDCC exact n1024 w25   asnorm100   dev= 5.34%  devrot= 5.61% (rotmean  5.64%)  bkgcv= 5.71% (rotmean  5.58%)  ==>  5.66%
+GDCC exact n1024 w25   asnormE50   dev= 5.41%  devrot= 5.56% (rotmean  5.60%)  bkgcv= 5.51% (rotmean  5.68%)  ==>  5.53%
+GDCC exact n1024 w25   asnormE100  dev= 5.10%  devrot= 5.56% (rotmean  5.37%)  bkgcv= 5.71% (rotmean  5.52%)  ==>  5.63%
+   [214s]
+FDPD n1024 w20 vad30   raw         dev= 7.14%  devrot= 6.73% (rotmean  6.71%)  bkgcv= 6.25% (rotmean  6.46%)  ==>  6.49%
+FDPD n1024 w20 vad30   tnorm       dev= 5.61%  devrot= 4.90% (rotmean  4.89%)  bkgcv= 5.71% (rotmean  6.04%)  ==>  5.30%
+FDPD n1024 w20 vad30   asnorm100   dev= 5.41%  devrot= 5.15% (rotmean  5.13%)  bkgcv= 5.71% (rotmean  5.50%)  ==>  5.43%
+FDPD n1024 w20 vad30   asnormE50   dev= 5.61%  devrot= 5.15% (rotmean  5.10%)  bkgcv= 5.74% (rotmean  5.81%)  ==>  5.45%
+FDPD n1024 w20 vad30   asnormE100  dev= 5.10%  devrot= 5.00% (rotmean  4.91%)  bkgcv= 5.52% (rotmean  5.58%)  ==>  5.26%
+   [253s]
+RPS w32 v0.3           raw         dev=22.96%  devrot=21.33% (rotmean 21.20%)  bkgcv=21.20% (rotmean 21.54%)  ==> 21.26%
+RPS w32 v0.3           tnorm       dev=20.92%  devrot=19.18% (rotmean 19.32%)  bkgcv=20.92% (rotmean 20.60%)  ==> 20.05%
+RPS w32 v0.3           asnorm100   dev=22.96%  devrot=20.46% (rotmean 20.46%)  bkgcv=20.92% (rotmean 20.46%)  ==> 20.69%
+RPS w32 v0.3           asnormE50   dev=23.53%  devrot=21.79% (rotmean 21.76%)  bkgcv=21.74% (rotmean 21.43%)  ==> 21.76%
+RPS w32 v0.3           asnormE100  dev=22.96%  devrot=20.66% (rotmean 20.62%)  bkgcv=20.92% (rotmean 20.58%)  ==> 20.79%
+   [56s]

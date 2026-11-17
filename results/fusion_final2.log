@@ -1,0 +1,9 @@
+FDPD x3 wg=0.25 dev= 0.51%  devrot= 0.56% (rotmean  0.61%)  bkgcv= 0.82% (rotmean  0.64%)  ==>  0.69%
+FDPD x3 wg=0.3 dev= 0.51%  devrot= 0.56% (rotmean  0.59%)  bkgcv= 0.82% (rotmean  0.63%)  ==>  0.69%
+FDPD x3 wg=0.35 dev= 0.51%  devrot= 0.57% (rotmean  0.57%)  bkgcv= 0.82% (rotmean  0.63%)  ==>  0.69%
+FDPD x4 wg=0.25 dev= 0.51%  devrot= 0.51% (rotmean  0.60%)  bkgcv= 0.89% (rotmean  0.69%)  ==>  0.70%
+FDPD x4 wg=0.3 dev= 0.51%  devrot= 0.51% (rotmean  0.55%)  bkgcv= 0.86% (rotmean  0.65%)  ==>  0.69%
+FDPD x4 wg=0.35 dev= 0.51%  devrot= 0.53% (rotmean  0.54%)  bkgcv= 0.84% (rotmean  0.63%)  ==>  0.69%
+FDPD x2 wg=0.25 dev= 0.49%  devrot= 0.50% (rotmean  0.58%)  bkgcv= 0.86% (rotmean  0.87%)  ==>  0.68%
+FDPD x2 wg=0.3 dev= 0.51%  devrot= 0.51% (rotmean  0.56%)  bkgcv= 0.82% (rotmean  0.87%)  ==>  0.67%
+FDPD x2 wg=0.35 dev= 0.51%  devrot= 0.56% (rotmean  0.55%)  bkgcv= 0.84% (rotmean  0.88%)  ==>  0.70%

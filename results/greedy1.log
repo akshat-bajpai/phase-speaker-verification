@@ -1,0 +1,29 @@
+single  0.99%  ifd_w256h48n1024_mel32_c0_d1_cmvn-global_vad1-25_mw1_cs1lag1_K128diag_r16
+single  1.06%  ifd_w256h48n1024_mel32_c0_d1_cmvn-global_vad1-25_mw1_cs1lag1_mp0.5_K128diag_r16
+single  1.13%  ifd_w256h48n2048_mel32_c0_d1_cmvn-global_vad1-25_mw1_cs1lag1_K128diag_r16
+single  1.15%  ifd_w320h48n1024_mel32_c0_d1_cmvn-global_vad1-25_mw1_cs1lag1_K128diag_r16
+single  1.24%  ifd_w256h48n1024_mel32_c0_d1_cmvn-global_vad1-25_mw1_cs1lag2_K128diag_r16
+single  1.33%  ifd_w256h48n1024_mel32_c0_d1_cmvn-global_vad1-25_mw1_cs1lag1_K16diag_r16
+single  1.43%  ifd_w400h48n2048_mel32_c0_d1_cmvn-global_vad1-25_mw1_cs1lag1_K128diag_r16
+single  1.51%  ifd_w256h48n1024_mel32_c0_d1_cmvn-global_vad1-25_mw1_cs1lag1_K4diag_r16
+single  4.38%  fdpd_w256h48n1024_mel32_c0_d1_cmvn-global_vad1-25_mw1_K128diag_r16
+single  5.14%  mgdcc_w400h48n1024_mel48_c30_d1_cmvn-global_vad1-25_mw1_a0.4g0.9l24_exact50_K128diag_r16
+single  5.37%  fdpd_w320h48n1024_mel32_c0_d1_cmvn-global_vad1-25_mw1_K128diag_r16
+single  7.21%  fdpd_w512h48n2048_mel32_c0_d1_cmvn-global_vad1-25_mw1_K128diag_r16
+single  7.24%  fdpd_w400h48n1024_mel32_c0_d1_cmvn-global_vad1-25_mw1_K128diag_r16
+
+start: ifd_w256h48n1024_mel32_c0_d1_cmvn-global_vad1-25_mw1_cs1lag1_K128diag_r16  dev= 0.51%  devrot= 0.88% (rotmean  0.93%)  bkgcv= 1.09% (rotmean  1.07%)  ==>  0.99%
++ ifd_w256h48n1024_mel32_c0_d1_cmvn-global_vad1-25_mw1_cs1lag1 dev= 0.51%  devrot= 0.77% (rotmean  0.77%)  bkgcv= 1.09% (rotmean  1.19%)  ==>  0.93%
++ fdpd_w512h48n2048_mel32_c0_d1_cmvn-global_vad1-25_mw1_K128di dev= 0.51%  devrot= 0.71% (rotmean  0.74%)  bkgcv= 0.82% (rotmean  0.66%)  ==>  0.76%
++ mgdcc_w400h48n1024_mel48_c30_d1_cmvn-global_vad1-25_mw1_a0.4 dev= 0.51%  devrot= 0.71% (rotmean  0.72%)  bkgcv= 0.68% (rotmean  0.49%)  ==>  0.70%
++ ifd_w256h48n1024_mel32_c0_d1_cmvn-global_vad1-25_mw1_cs1lag1 dev= 0.51%  devrot= 0.66% (rotmean  0.65%)  bkgcv= 0.70% (rotmean  0.42%)  ==>  0.68%
++ ifd_w256h48n2048_mel32_c0_d1_cmvn-global_vad1-25_mw1_cs1lag1 dev= 0.51%  devrot= 0.66% (rotmean  0.65%)  bkgcv= 0.74% (rotmean  0.44%)  ==>  0.70%
+no further improvement; stopping
+
+SELECTED:
+   ifd_w256h48n1024_mel32_c0_d1_cmvn-global_vad1-25_mw1_cs1lag1_K128diag_r16
+   ifd_w256h48n1024_mel32_c0_d1_cmvn-global_vad1-25_mw1_cs1lag1_mp0.5_K128diag_r16
+   fdpd_w512h48n2048_mel32_c0_d1_cmvn-global_vad1-25_mw1_K128diag_r16
+   mgdcc_w400h48n1024_mel48_c30_d1_cmvn-global_vad1-25_mw1_a0.4g0.9l24_exact50_K128diag_r16
+   ifd_w256h48n1024_mel32_c0_d1_cmvn-global_vad1-25_mw1_cs1lag1_K4diag_r16
+dev= 0.51%  devrot= 0.66% (rotmean  0.65%)  bkgcv= 0.70% (rotmean  0.42%)  ==>  0.68%

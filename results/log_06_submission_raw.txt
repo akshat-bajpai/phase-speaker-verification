@@ -1,0 +1,18 @@
+==============================================================================
+FINAL SYSTEM -> KAGGLE SUBMISSION
+==============================================================================
+[cache] hit  feat_ifd_w400h48n512_mel32_c0_d1_cmvn-global_vad1-30_mw1_cs1lag1.pt  (3601 files, dim=128)
+
+Feature  : ifd_w400h48n512_mel32_c0_d1_cmvn-global_vad1-30_mw1_cs1lag1
+UBM      : K=128 diag, D=128, 24 EM iterations, 15.2s
+Enrolment: MAP mean adaptation, r=16, 3 utterances
+Scoring  : average per-frame LLR, top_c=all, norm=none
+
+DEV  EER = 1.02% (95% CI 0.49-1.61%), AUC = 0.9995, 196 genuine / 1628 impostor trials
+
+EVAL protocol: 179 enrolled speakers, 3524 trials, 881 test recordings
+Eval scores: mean=-0.1118, sd=0.9511, min=-4.8684, max=+7.2084, finite=True
+
+[saved] /Users/akspai/mla4/submissions/submission_rawllr.csv
+  [validated] 3524 rows, unique ids, all scores finite, header correct
+[saved] /Users/akspai/mla4/results/submission_rawllr.json

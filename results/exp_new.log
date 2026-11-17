@@ -1,0 +1,55 @@
+v4 reference        dev= 0.51%  devrot= 0.56% (rotmean  0.59%)  bkgcv= 0.82% (rotmean  0.63%)  ==>  0.69%
+A alone             dev= 0.51%  devrot= 0.92% (rotmean  0.90%)  bkgcv= 1.09% (rotmean  1.07%)  ==>  1.00%
+   computed A seg0/2 [75s]
+   computed A seg1/2 [70s]
+A seg2 K128         dev= 1.02%  devrot= 0.97% (rotmean  1.01%)  bkgcv= 1.36% (rotmean  0.98%)  ==>  1.16%
+  v4 + A seg2 K128    w=0.1  dev= 0.51%  devrot= 0.56% (rotmean  0.60%)  bkgcv= 0.82% (rotmean  0.62%)  ==>  0.69%
+  v4 + A seg2 K128    w=0.2  dev= 0.51%  devrot= 0.50% (rotmean  0.56%)  bkgcv= 0.82% (rotmean  0.64%)  ==>  0.66%
+  v4 + A seg2 K128    w=0.3  dev= 0.51%  devrot= 0.50% (rotmean  0.56%)  bkgcv= 0.82% (rotmean  0.68%)  ==>  0.66%
+  v4 + A seg2 K128    w=0.5  dev= 0.51%  devrot= 0.57% (rotmean  0.58%)  bkgcv= 0.82% (rotmean  0.73%)  ==>  0.69%
+   computed A seg0/3 [37s]
+   computed A seg1/3 [30s]
+   computed A seg2/3 [34s]
+A seg3 K64          dev= 1.02%  devrot= 0.90% (rotmean  1.00%)  bkgcv= 1.09% (rotmean  0.70%)  ==>  0.99%
+  v4 + A seg3 K64     w=0.1  dev= 0.51%  devrot= 0.51% (rotmean  0.57%)  bkgcv= 0.82% (rotmean  0.52%)  ==>  0.66%
+  v4 + A seg3 K64     w=0.2  dev= 0.51%  devrot= 0.51% (rotmean  0.54%)  bkgcv= 0.88% (rotmean  0.48%)  ==>  0.69%
+  v4 + A seg3 K64     w=0.3  dev= 0.51%  devrot= 0.49% (rotmean  0.52%)  bkgcv= 0.93% (rotmean  0.46%)  ==>  0.71%
+  v4 + A seg3 K64     w=0.5  dev= 0.51%  devrot= 0.59% (rotmean  0.56%)  bkgcv= 0.82% (rotmean  0.48%)  ==>  0.70%
+   computed A seg0/3 [61s]
+   computed A seg1/3 [94s]
+   computed A seg2/3 [84s]
+A seg3 K128         dev= 1.53%  devrot= 1.33% (rotmean  1.39%)  bkgcv= 1.12% (rotmean  1.02%)  ==>  1.22%
+  v4 + A seg3 K128    w=0.1  dev= 0.51%  devrot= 0.56% (rotmean  0.60%)  bkgcv= 0.82% (rotmean  0.59%)  ==>  0.69%
+  v4 + A seg3 K128    w=0.2  dev= 0.51%  devrot= 0.55% (rotmean  0.60%)  bkgcv= 0.82% (rotmean  0.60%)  ==>  0.68%
+  v4 + A seg3 K128    w=0.3  dev= 0.51%  devrot= 0.60% (rotmean  0.62%)  bkgcv= 0.82% (rotmean  0.61%)  ==>  0.71%
+  v4 + A seg3 K128    w=0.5  dev= 0.51%  devrot= 0.66% (rotmean  0.71%)  bkgcv= 0.82% (rotmean  0.65%)  ==>  0.74%
+   computed TFD n1024 w16 [220s]
+TFD n1024 w16       dev=15.31%  devrot=14.08% (rotmean 14.06%)  bkgcv=13.59% (rotmean 13.65%)  ==> 13.83%
+  v4 + TFD n1024 w16  w=0.1  dev= 0.51%  devrot= 0.61% (rotmean  0.63%)  bkgcv= 0.97% (rotmean  0.68%)  ==>  0.79%
+  v4 + TFD n1024 w16  w=0.2  dev= 0.51%  devrot= 0.70% (rotmean  0.62%)  bkgcv= 0.83% (rotmean  0.90%)  ==>  0.77%
+  v4 + TFD n1024 w16  w=0.3  dev= 0.80%  devrot= 0.80% (rotmean  0.82%)  bkgcv= 0.96% (rotmean  1.13%)  ==>  0.88%
+  v4 + TFD n1024 w16  w=0.5  dev= 2.04%  devrot= 1.53% (rotmean  1.40%)  bkgcv= 1.90% (rotmean  1.99%)  ==>  1.72%
+   computed A hop2 [227s]
+A hop2              dev= 0.55%  devrot= 0.77% (rotmean  0.84%)  bkgcv= 1.36% (rotmean  1.17%)  ==>  1.06%
+  v4 + A hop2         w=0.1  dev= 0.51%  devrot= 0.56% (rotmean  0.60%)  bkgcv= 0.82% (rotmean  0.61%)  ==>  0.69%
+  v4 + A hop2         w=0.2  dev= 0.51%  devrot= 0.51% (rotmean  0.59%)  bkgcv= 0.82% (rotmean  0.65%)  ==>  0.66%
+  v4 + A hop2         w=0.3  dev= 0.51%  devrot= 0.51% (rotmean  0.57%)  bkgcv= 0.82% (rotmean  0.64%)  ==>  0.66%
+  v4 + A hop2         w=0.5  dev= 0.51%  devrot= 0.53% (rotmean  0.59%)  bkgcv= 0.96% (rotmean  0.75%)  ==>  0.74%
+   computed A dd [157s]
+A dd                dev= 0.92%  devrot= 1.12% (rotmean  1.16%)  bkgcv= 1.90% (rotmean  1.96%)  ==>  1.51%
+  v4 + A dd           w=0.1  dev= 0.51%  devrot= 0.57% (rotmean  0.58%)  bkgcv= 0.82% (rotmean  0.71%)  ==>  0.69%
+  v4 + A dd           w=0.2  dev= 0.51%  devrot= 0.61% (rotmean  0.59%)  bkgcv= 1.00% (rotmean  0.79%)  ==>  0.81%
+  v4 + A dd           w=0.3  dev= 0.51%  devrot= 0.61% (rotmean  0.61%)  bkgcv= 1.09% (rotmean  0.89%)  ==>  0.85%
+  v4 + A dd           w=0.5  dev= 0.51%  devrot= 0.68% (rotmean  0.70%)  bkgcv= 1.36% (rotmean  1.05%)  ==>  1.02%
+   computed FDPD n1024 w12 [159s]
+FDPD n1024 w12      dev= 4.73%  devrot= 4.86% (rotmean  4.98%)  bkgcv= 4.89% (rotmean  4.86%)  ==>  4.88%
+  v4 + FDPD n1024 w12 w=0.1  dev= 0.51%  devrot= 0.51% (rotmean  0.51%)  bkgcv= 0.86% (rotmean  0.58%)  ==>  0.68%
+  v4 + FDPD n1024 w12 w=0.2  dev= 0.51%  devrot= 0.47% (rotmean  0.49%)  bkgcv= 0.94% (rotmean  0.61%)  ==>  0.71%
+  v4 + FDPD n1024 w12 w=0.3  dev= 0.51%  devrot= 0.53% (rotmean  0.48%)  bkgcv= 0.82% (rotmean  0.71%)  ==>  0.67%
+  v4 + FDPD n1024 w12 w=0.5  dev= 0.80%  devrot= 0.79% (rotmean  0.77%)  bkgcv= 1.36% (rotmean  1.13%)  ==>  1.08%
+   computed A vad20 [103s]
+A vad20             dev= 0.80%  devrot= 0.87% (rotmean  0.85%)  bkgcv= 1.41% (rotmean  1.45%)  ==>  1.14%
+  v4 + A vad20        w=0.1  dev= 0.51%  devrot= 0.56% (rotmean  0.57%)  bkgcv= 0.82% (rotmean  0.60%)  ==>  0.69%
+  v4 + A vad20        w=0.2  dev= 0.51%  devrot= 0.60% (rotmean  0.55%)  bkgcv= 0.94% (rotmean  0.63%)  ==>  0.77%
+  v4 + A vad20        w=0.3  dev= 0.51%  devrot= 0.54% (rotmean  0.55%)  bkgcv= 0.90% (rotmean  0.74%)  ==>  0.72%
+  v4 + A vad20        w=0.5  dev= 0.51%  devrot= 0.56% (rotmean  0.60%)  bkgcv= 1.09% (rotmean  0.97%)  ==>  0.82%

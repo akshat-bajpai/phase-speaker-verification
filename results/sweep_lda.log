@@ -1,0 +1,12 @@
+A lda_utt:0            raw         dev= 3.93%  devrot= 4.47% (rotmean  4.53%)  bkgcv= 4.62% (rotmean  4.69%)  ==>  4.55%
+A lda_utt:0            tnorm       dev= 3.62%  devrot= 4.08% (rotmean  4.00%)  bkgcv= 4.66% (rotmean  5.17%)  ==>  4.37%
+A lda_utt:0            asnorm100   dev= 3.06%  devrot= 3.78% (rotmean  3.74%)  bkgcv= 4.22% (rotmean  4.67%)  ==>  4.00%
+A lda_utt:0            asnormE50   dev= 3.06%  devrot= 3.52% (rotmean  3.54%)  bkgcv= 4.22% (rotmean  4.67%)  ==>  3.87%
+A lda_utt:0            asnormE100  dev= 3.06%  devrot= 3.47% (rotmean  3.47%)  bkgcv= 4.12% (rotmean  4.64%)  ==>  3.80%
+   [293s]
+A lda_utt:96           raw         dev= 3.87%  devrot= 3.86% (rotmean  3.80%)  bkgcv= 3.53% (rotmean  3.78%)  ==>  3.70%
+A lda_utt:96           tnorm       dev= 3.57%  devrot= 3.32% (rotmean  3.20%)  bkgcv= 3.80% (rotmean  3.90%)  ==>  3.56%
+A lda_utt:96           asnorm100   dev= 2.55%  devrot= 2.82% (rotmean  2.83%)  bkgcv= 3.53% (rotmean  3.40%)  ==>  3.18%
+A lda_utt:96           asnormE50   dev= 2.04%  devrot= 2.65% (rotmean  2.66%)  bkgcv= 3.55% (rotmean  3.40%)  ==>  3.10%
+A lda_utt:96           asnormE100  dev= 2.04%  devrot= 2.65% (rotmean  2.66%)  bkgcv= 3.53% (rotmean  3.44%)  ==>  3.09%
+   [145s]

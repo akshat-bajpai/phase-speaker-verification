@@ -1,0 +1,79 @@
+
+1. FRAMING AND STFT
+  [PASS] frame count   (13, 400)
+  [PASS] frame content
+  [PASS] rfft peak bin   argmax=40
+
+2. PHASE WRAPPING (princarg)
+  [PASS] range [-pi, pi)   min=-3.141592653590 max=+3.041592653590
+  [PASS] equivalence mod 2pi
+  [PASS] princarg(pi+0.1) wraps negative   -3.0416
+
+3. IFD RECOVERS A KNOWN FREQUENCY OFFSET
+  [PASS] IFD at offset  +0.0 Hz   measured +0.0000 rad, expected +0.0000
+  [PASS] IFD at offset +10.0 Hz   measured +0.1885 rad, expected +0.1885
+  [PASS] IFD at offset +25.0 Hz   measured +0.4712 rad, expected +0.4712
+  [PASS] IFD at offset +60.0 Hz   measured +1.1310 rad, expected +1.1310
+      unambiguous |f - f_k| range for hop=48 samples: +/- 166.7 Hz  (bin spacing 31.2 Hz)
+
+4. BAND AGGREGATION CANNOT LEAK MAGNITUDE
+  [PASS] constant phase -> magnitude-independent output   max diff 3.58e-07
+  [PASS] value equals cos/sin of the constant   0.7648/0.6442 vs 0.7648/0.6442
+
+5. IFD IS INVARIANT TO A HOP-ALIGNED TIME SHIFT
+  [PASS] hop-aligned shift leaves interior features bit-identical   max diff 0.00e+00
+  [PASS] only the centre-padding boundary differs   boundary max diff 2.12e-01 over the first 7 frames (= ceil((win/2)/hop) + lag + 1)
+
+6. DELTAS
+  [PASS] delta of a ramp is constant 1 in the interior   1.000000
+  [PASS] delta of a constant is 0
+
+7. GMM DENSITIES
+  [PASS] log N analytic, diag   -4.12466137 vs -4.12466137
+  [PASS] log N analytic, full   -4.12466137 vs -4.12466137
+  [PASS] log N analytic, tied   -4.12466137 vs -4.12466137
+  [PASS] log N analytic, spherical   -4.12466137 vs -4.12466137
+  [PASS] mixture density integrates to 1   integral=1.000000
+
+8. EM MONOTONICITY AND RECOVERY
+  [PASS] EM monotone + recovers means (diag)   monotone=True, max mean error=0.0562
+  [PASS] EM monotone + recovers means (full)   monotone=True, max mean error=0.0562
+  [PASS] EM monotone + recovers means (tied)   monotone=True, max mean error=0.0562
+  [PASS] EM monotone + recovers means (spherical)   monotone=True, max mean error=0.0562
+
+9. BIC/AIC PARAMETER COUNTS
+  [PASS] n_parameters (diag)   43 vs 43
+  [PASS] n_parameters (spherical)   27 vs 27
+  [PASS] n_parameters (tied)   38 vs 38
+  [PASS] n_parameters (full)   83 vs 83
+
+10. K-MEANS
+  [PASS] k-means++ finds the 3 clusters   centres=[[5.99, -0.0], [-0.0, 5.94], [-0.0, -0.03]]
+  [PASS] every cluster non-empty
+
+11. MAP ADAPTATION
+  [PASS] zeroth-order statistics sum to T   sum n_k = 200.000000
+  [PASS] r -> 0 gives the ML mean   max diff 1.13e-10
+  [PASS] r -> inf gives the UBM mean   max diff 1.32e-10
+  [PASS] alpha interpolation matches Appendix A   max diff 0.00e+00
+  [PASS] weights and covariances untouched by mean-only MAP
+  [PASS] zero-occupancy components keep the UBM mean
+
+12. SCORING
+  [PASS] batched scorer == reference loop   max diff 1.78e-15
+  [PASS] top-C batched == top-C loop
+  [PASS] self-trial scores above cross-trial
+  [PASS] LLR against the UBM itself is 0
+
+13. METRICS
+  [PASS] perfect separation -> EER 0
+  [PASS] perfect separation -> AUC 1
+  [PASS] reversed scores -> EER 1 or AUC 0
+  [PASS] EER matches the Gaussian theory for d'=2   empirical 0.1575 vs theory 0.1587
+  [PASS] FAR == FRR at the EER threshold   FAR=0.1575 FRR=0.1575
+  [PASS] EER is invariant to a monotone score transform
+  [PASS] EER is invariant to exponentiation
+  [PASS] threshold_at_far honours the target   FAR=0.0100
+
+============================================================
+ALL CHECKS PASSED

@@ -1,0 +1,21 @@
+=== combining nfft / win / vad ===
+  nfft1024 win16 vad25                   dim=128  dev= 1.02%  loo= 3.09%  bkg= 2.17%   MEAN= 2.10%
+  nfft1024 win16 vad30                   dim=128  dev= 1.47%  loo= 3.09%  bkg= 2.74%   MEAN= 2.44%
+  nfft1024 win20 vad25                   dim=128  dev= 1.53%  loo= 2.75%  bkg= 2.74%   MEAN= 2.34%
+  nfft1024 win20 vad30                   dim=128  dev= 1.47%  loo= 3.44%  bkg= 2.51%   MEAN= 2.47%
+  nfft1024 win25 vad25                   dim=128  dev= 2.04%  loo= 3.78%  bkg= 3.26%   MEAN= 3.03%
+  nfft1024 win25 vad30                   dim=128  dev= 1.47%  loo= 3.09%  bkg= 2.17%   MEAN= 2.25%
+  nfft2048 win16 vad25                   dim=128  dev= 1.41%  loo= 3.44%  bkg= 2.85%   MEAN= 2.57%
+  nfft2048 win16 vad30                   dim=128  dev= 2.21%  loo= 3.44%  bkg= 2.40%   MEAN= 2.68%
+  nfft2048 win20 vad25                   dim=128  dev= 1.66%  loo= 2.75%  bkg= 2.74%   MEAN= 2.38%
+  nfft2048 win20 vad30                   dim=128  dev= 2.04%  loo= 2.75%  bkg= 2.17%   MEAN= 2.32%
+  nfft2048 win25 vad25                   dim=128  dev= 1.11%  loo= 3.09%  bkg= 2.28%   MEAN= 2.16%
+  nfft2048 win25 vad30                   dim=128  dev= 1.53%  loo= 3.78%  bkg= 3.20%   MEAN= 2.84%
+
+  TOP 3: ['nfft1024 win16 vad25 (2.10%)', 'nfft2048 win25 vad25 (2.16%)', 'nfft1024 win25 vad30 (2.25%)']
+
+=== hop, around the best setting ===
+  hop3 + best                            dim=128  dev= 1.02%  loo= 3.09%  bkg= 2.17%   MEAN= 2.10%
+  hop4 + best                            dim=128  dev= 1.53%  loo= 3.09%  bkg= 2.05%   MEAN= 2.23%
+  hop5 + best                            dim=128  dev= 2.04%  loo= 3.44%  bkg= 2.17%   MEAN= 2.55%
+  hop6 + best                            dim=128  dev= 2.55%  loo= 4.47%  bkg= 3.26%   MEAN= 3.43%

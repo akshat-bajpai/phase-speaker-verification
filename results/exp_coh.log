@@ -1,0 +1,22 @@
+cohort 1 0 [707, 589, 589, 590, 590] 440
+coh>=1 tnorm0 dev= 1.04%  devrot= 1.73% (rotmean  1.70%)  bkgcv= 1.28% (rotmean  1.23%)  ==>  1.50%
+coh>=1 asnorm50 dev= 0.61%  devrot= 1.28% (rotmean  1.24%)  bkgcv= 1.09% (rotmean  1.06%)  ==>  1.18%
+coh>=1 asnorm100 dev= 0.51%  devrot= 1.28% (rotmean  1.23%)  bkgcv= 1.10% (rotmean  1.01%)  ==>  1.19%
+coh>=1 asnorm200 dev= 0.51%  devrot= 1.28% (rotmean  1.25%)  bkgcv= 1.09% (rotmean  1.01%)  ==>  1.18%
+coh>=1 asnormE50 dev= 0.51%  devrot= 1.12% (rotmean  1.13%)  bkgcv= 1.09% (rotmean  1.04%)  ==>  1.10%
+coh>=1 asnormE100 dev= 0.51%  devrot= 1.12% (rotmean  1.09%)  bkgcv= 1.09% (rotmean  1.00%)  ==>  1.10%
+coh>=1 asnormE200 dev= 0.51%  devrot= 1.12% (rotmean  1.12%)  bkgcv= 1.09% (rotmean  0.99%)  ==>  1.10%
+coh>=1 asnormE400 dev= 0.51%  devrot= 1.12% (rotmean  1.21%)  bkgcv= 1.09% (rotmean  1.07%)  ==>  1.10%
+coh>=1 asnormE100+pen dev= 0.51%  devrot= 0.92% (rotmean  0.89%)  bkgcv= 1.09% (rotmean  0.97%)  ==>  1.00%
+coh>=1 asnormE200+pen dev= 0.51%  devrot= 0.92% (rotmean  0.92%)  bkgcv= 1.09% (rotmean  0.96%)  ==>  1.00%
+cohort 2 0 [332, 282, 277, 281, 276] 412
+coh>=2 tnorm0 dev= 1.02%  devrot= 1.53% (rotmean  1.59%)  bkgcv= 1.36% (rotmean  1.34%)  ==>  1.44%
+coh>=2 asnorm50 dev= 0.61%  devrot= 1.22% (rotmean  1.25%)  bkgcv= 1.09% (rotmean  1.08%)  ==>  1.16%
+coh>=2 asnorm100 dev= 0.55%  devrot= 1.22% (rotmean  1.27%)  bkgcv= 1.09% (rotmean  1.07%)  ==>  1.16%
+coh>=2 asnorm200 dev= 0.61%  devrot= 1.33% (rotmean  1.36%)  bkgcv= 1.09% (rotmean  1.11%)  ==>  1.21%
+coh>=2 asnormE50 dev= 0.51%  devrot= 1.12% (rotmean  1.12%)  bkgcv= 1.09% (rotmean  1.06%)  ==>  1.11%
+coh>=2 asnormE100 dev= 0.51%  devrot= 1.12% (rotmean  1.11%)  bkgcv= 1.09% (rotmean  1.05%)  ==>  1.10%
+coh>=2 asnormE200 dev= 0.51%  devrot= 1.17% (rotmean  1.19%)  bkgcv= 1.09% (rotmean  1.08%)  ==>  1.13%
+coh>=2 asnormE400 dev= 0.80%  devrot= 1.35% (rotmean  1.43%)  bkgcv= 1.29% (rotmean  1.15%)  ==>  1.32%
+coh>=2 asnormE100+pen dev= 0.51%  devrot= 0.88% (rotmean  0.92%)  bkgcv= 1.09% (rotmean  0.99%)  ==>  0.98%
+coh>=2 asnormE200+pen dev= 0.51%  devrot= 0.92% (rotmean  0.93%)  bkgcv= 1.09% (rotmean  1.01%)  ==>  1.00%

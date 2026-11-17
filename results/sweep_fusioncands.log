@@ -1,0 +1,42 @@
+A magpow0.5            raw         dev= 1.35%  devrot= 1.84% (rotmean  1.77%)  bkgcv= 1.62% (rotmean  1.54%)  ==>  1.73%
+A magpow0.5            tnorm       dev= 0.98%  devrot= 1.28% (rotmean  1.24%)  bkgcv= 1.63% (rotmean  1.68%)  ==>  1.45%
+A magpow0.5            asnorm100   dev= 0.98%  devrot= 1.02% (rotmean  1.06%)  bkgcv= 1.38% (rotmean  1.45%)  ==>  1.20%
+A magpow0.5            asnormE50   dev= 1.04%  devrot= 0.87% (rotmean  0.91%)  bkgcv= 1.47% (rotmean  1.42%)  ==>  1.17%
+A magpow0.5            asnormE100  dev= 1.02%  devrot= 0.93% (rotmean  0.93%)  bkgcv= 1.36% (rotmean  1.38%)  ==>  1.15%
+   [296s]
+A n2048 w16            raw         dev= 1.41%  devrot= 1.84% (rotmean  1.81%)  bkgcv= 1.59% (rotmean  1.37%)  ==>  1.72%
+A n2048 w16            tnorm       dev= 1.02%  devrot= 1.53% (rotmean  1.63%)  bkgcv= 1.62% (rotmean  1.43%)  ==>  1.58%
+A n2048 w16            asnorm100   dev= 1.02%  devrot= 1.38% (rotmean  1.31%)  bkgcv= 1.36% (rotmean  1.22%)  ==>  1.37%
+A n2048 w16            asnormE50   dev= 0.86%  devrot= 1.14% (rotmean  1.25%)  bkgcv= 1.36% (rotmean  1.21%)  ==>  1.25%
+A n2048 w16            asnormE100  dev= 0.86%  devrot= 1.19% (rotmean  1.25%)  bkgcv= 1.30% (rotmean  1.20%)  ==>  1.24%
+   [235s]
+FDPD n1024 w16         raw         dev= 6.63%  devrot= 6.97% (rotmean  7.00%)  bkgcv= 5.71% (rotmean  5.89%)  ==>  6.34%
+FDPD n1024 w16         tnorm       dev= 4.08%  devrot= 4.85% (rotmean  4.86%)  bkgcv= 4.35% (rotmean  4.15%)  ==>  4.60%
+FDPD n1024 w16         asnorm100   dev= 5.10%  devrot= 5.20% (rotmean  5.24%)  bkgcv= 4.35% (rotmean  4.47%)  ==>  4.78%
+FDPD n1024 w16         asnormE50   dev= 5.41%  devrot= 5.19% (rotmean  5.26%)  bkgcv= 4.08% (rotmean  4.67%)  ==>  4.63%
+FDPD n1024 w16         asnormE100  dev= 4.91%  devrot= 5.00% (rotmean  5.08%)  bkgcv= 4.21% (rotmean  4.44%)  ==>  4.61%
+   [236s]
+A lag2                 raw         dev= 1.53%  devrot= 2.04% (rotmean  2.03%)  bkgcv= 1.63% (rotmean  1.62%)  ==>  1.84%
+A lag2                 tnorm       dev= 1.53%  devrot= 1.61% (rotmean  1.68%)  bkgcv= 1.63% (rotmean  2.01%)  ==>  1.62%
+A lag2                 asnorm100   dev= 1.53%  devrot= 1.48% (rotmean  1.54%)  bkgcv= 1.36% (rotmean  1.58%)  ==>  1.42%
+A lag2                 asnormE50   dev= 1.53%  devrot= 1.28% (rotmean  1.25%)  bkgcv= 1.36% (rotmean  1.61%)  ==>  1.32%
+A lag2                 asnormE100  dev= 1.53%  devrot= 1.28% (rotmean  1.34%)  bkgcv= 1.36% (rotmean  1.56%)  ==>  1.32%
+   [233s]
+A K=16 r=16            raw         dev= 1.78%  devrot= 2.21% (rotmean  2.21%)  bkgcv= 2.04% (rotmean  1.89%)  ==>  2.12%
+A K=16 r=16            tnorm       dev= 1.02%  devrot= 1.17% (rotmean  1.18%)  bkgcv= 1.47% (rotmean  1.64%)  ==>  1.32%
+A K=16 r=16            asnorm100   dev= 1.23%  devrot= 1.43% (rotmean  1.55%)  bkgcv= 1.90% (rotmean  1.64%)  ==>  1.67%
+A K=16 r=16            asnormE50   dev= 1.02%  devrot= 1.33% (rotmean  1.27%)  bkgcv= 1.85% (rotmean  1.60%)  ==>  1.59%
+A K=16 r=16            asnormE100  dev= 1.02%  devrot= 1.36% (rotmean  1.38%)  bkgcv= 1.85% (rotmean  1.65%)  ==>  1.60%
+   [52s]
+A K=4 r=16             raw         dev= 1.53%  devrot= 2.16% (rotmean  2.10%)  bkgcv= 2.17% (rotmean  1.93%)  ==>  2.16%
+A K=4 r=16             tnorm       dev= 1.23%  devrot= 1.48% (rotmean  1.51%)  bkgcv= 2.17% (rotmean  1.49%)  ==>  1.83%
+A K=4 r=16             asnorm100   dev= 1.53%  devrot= 1.63% (rotmean  1.62%)  bkgcv= 2.17% (rotmean  1.81%)  ==>  1.90%
+A K=4 r=16             asnormE50   dev= 1.04%  devrot= 1.33% (rotmean  1.30%)  bkgcv= 1.94% (rotmean  1.70%)  ==>  1.63%
+A K=4 r=16             asnormE100  dev= 1.11%  devrot= 1.37% (rotmean  1.33%)  bkgcv= 2.15% (rotmean  1.75%)  ==>  1.76%
+   [26s]
+A K=32 r=16            raw         dev= 1.29%  devrot= 1.73% (rotmean  1.66%)  bkgcv= 1.79% (rotmean  1.78%)  ==>  1.76%
+A K=32 r=16            tnorm       dev= 0.55%  devrot= 1.05% (rotmean  1.11%)  bkgcv= 1.63% (rotmean  1.55%)  ==>  1.34%
+A K=32 r=16            asnorm100   dev= 1.02%  devrot= 1.33% (rotmean  1.26%)  bkgcv= 1.50% (rotmean  1.32%)  ==>  1.41%
+A K=32 r=16            asnormE50   dev= 0.98%  devrot= 1.01% (rotmean  1.08%)  bkgcv= 1.63% (rotmean  1.31%)  ==>  1.32%
+A K=32 r=16            asnormE100  dev= 0.92%  devrot= 1.03% (rotmean  1.08%)  bkgcv= 1.45% (rotmean  1.27%)  ==>  1.24%
+   [97s]

@@ -1,0 +1,30 @@
+A magpow2              raw         dev= 1.53%  devrot= 2.14% (rotmean  2.16%)  bkgcv= 1.84% (rotmean  1.63%)  ==>  1.99%
+A magpow2              tnorm       dev= 1.53%  devrot= 1.58% (rotmean  1.58%)  bkgcv= 1.63% (rotmean  1.86%)  ==>  1.61%
+A magpow2              asnorm100   dev= 1.02%  devrot= 1.48% (rotmean  1.52%)  bkgcv= 1.63% (rotmean  1.33%)  ==>  1.56%
+A magpow2              asnormE50   dev= 1.02%  devrot= 1.17% (rotmean  1.26%)  bkgcv= 1.63% (rotmean  1.38%)  ==>  1.40%
+A magpow2              asnormE100  dev= 1.02%  devrot= 1.22% (rotmean  1.27%)  bkgcv= 1.63% (rotmean  1.29%)  ==>  1.43%
+   [406s]
+A magpow0.5            raw         dev= 1.35%  devrot= 1.84% (rotmean  1.77%)  bkgcv= 1.62% (rotmean  1.54%)  ==>  1.73%
+A magpow0.5            tnorm       dev= 0.98%  devrot= 1.28% (rotmean  1.24%)  bkgcv= 1.63% (rotmean  1.68%)  ==>  1.45%
+A magpow0.5            asnorm100   dev= 0.98%  devrot= 1.02% (rotmean  1.06%)  bkgcv= 1.38% (rotmean  1.45%)  ==>  1.20%
+A magpow0.5            asnormE50   dev= 1.04%  devrot= 0.87% (rotmean  0.91%)  bkgcv= 1.47% (rotmean  1.42%)  ==>  1.17%
+A magpow0.5            asnormE100  dev= 1.02%  devrot= 0.93% (rotmean  0.93%)  bkgcv= 1.36% (rotmean  1.38%)  ==>  1.15%
+   [414s]
+A magpow3              raw         dev= 2.04%  devrot= 2.24% (rotmean  2.27%)  bkgcv= 1.63% (rotmean  1.63%)  ==>  1.94%
+A magpow3              tnorm       dev= 1.23%  devrot= 1.84% (rotmean  1.90%)  bkgcv= 1.90% (rotmean  1.76%)  ==>  1.87%
+A magpow3              asnorm100   dev= 1.23%  devrot= 1.84% (rotmean  1.74%)  bkgcv= 1.63% (rotmean  1.37%)  ==>  1.73%
+A magpow3              asnormE50   dev= 1.11%  devrot= 1.58% (rotmean  1.58%)  bkgcv= 1.63% (rotmean  1.39%)  ==>  1.61%
+A magpow3              asnormE100  dev= 1.02%  devrot= 1.63% (rotmean  1.59%)  bkgcv= 1.57% (rotmean  1.36%)  ==>  1.60%
+   [359s]
+A blackman             raw         dev= 1.72%  devrot= 1.89% (rotmean  1.87%)  bkgcv= 1.46% (rotmean  1.31%)  ==>  1.67%
+A blackman             tnorm       dev= 0.68%  devrot= 1.15% (rotmean  1.18%)  bkgcv= 1.63% (rotmean  1.30%)  ==>  1.39%
+A blackman             asnorm100   dev= 1.11%  devrot= 1.43% (rotmean  1.42%)  bkgcv= 1.63% (rotmean  1.15%)  ==>  1.53%
+A blackman             asnormE50   dev= 0.80%  devrot= 1.10% (rotmean  1.07%)  bkgcv= 1.56% (rotmean  1.22%)  ==>  1.33%
+A blackman             asnormE100  dev= 1.02%  devrot= 1.15% (rotmean  1.12%)  bkgcv= 1.63% (rotmean  1.14%)  ==>  1.39%
+   [332s]
+A blackman w20         raw         dev= 1.02%  devrot= 1.79% (rotmean  1.86%)  bkgcv= 1.58% (rotmean  1.32%)  ==>  1.68%
+A blackman w20         tnorm       dev= 1.04%  devrot= 1.43% (rotmean  1.49%)  bkgcv= 1.63% (rotmean  1.57%)  ==>  1.53%
+A blackman w20         asnorm100   dev= 0.68%  devrot= 1.28% (rotmean  1.21%)  bkgcv= 1.36% (rotmean  1.26%)  ==>  1.32%
+A blackman w20         asnormE50   dev= 0.51%  devrot= 0.97% (rotmean  1.07%)  bkgcv= 1.36% (rotmean  1.21%)  ==>  1.16%
+A blackman w20         asnormE100  dev= 0.51%  devrot= 1.05% (rotmean  1.08%)  bkgcv= 1.36% (rotmean  1.16%)  ==>  1.20%
+   [340s]

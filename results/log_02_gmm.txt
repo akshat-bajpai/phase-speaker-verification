@@ -1,0 +1,134 @@
+==============================================================================
+TASK 2 -- GMM BEHAVIOUR ON PHASE FEATURES
+==============================================================================
+[cache] hit  feat_ifd_w400h48n512_mel32_c0_d1_cmvn-global_vad1-30_mw1_cs1lag1.pt  (3601 files, dim=128)
+
+Fitting set   : 20000 frames x 128 dims (uniform subsample of the 1287 background UBM-split recordings, seed 2026)
+Held-out set  : 26509 frames from 149 recordings of speakers DISJOINT from the fitting set (seed 2026)
+
+------------------------------------------------------------------------------
+A. COVARIANCE STRUCTURE x MIXTURE COUNT
+------------------------------------------------------------------------------
+  spherical K=  8  params=   1039  train LL=-174.728  held-out LL=-173.287  BIC=6.9994e+06    0.4s
+  spherical K= 16  params=   2079  train LL=-173.670  held-out LL=-172.265  BIC=6.9674e+06    0.4s
+  spherical K= 32  params=   4159  train LL=-172.445  held-out LL=-171.344  BIC=6.9390e+06    0.3s
+  spherical K= 64  params=   8319  train LL=-171.172  held-out LL=-170.533  BIC=6.9293e+06    0.7s
+  spherical K=128  params=  16639  train LL=-169.946  held-out LL=-170.068  BIC=6.9626e+06    1.5s
+  diag      K=  8  params=   2055  train LL=-171.820  held-out LL=-170.358  BIC=6.8932e+06    0.4s
+  diag      K= 16  params=   4111  train LL=-169.837  held-out LL=-168.830  BIC=6.8342e+06    0.4s
+  diag      K= 32  params=   8223  train LL=-167.730  held-out LL=-167.238  BIC=6.7907e+06    0.6s
+  diag      K= 64  params=  16447  train LL=-165.650  held-out LL=-166.187  BIC=6.7889e+06    1.2s
+  diag      K=128  params=  32895  train LL=-163.778  held-out LL=-165.819  BIC=6.8769e+06    2.2s
+  tied      K=  8  params=   9287  train LL=-168.084  held-out LL=-166.986  BIC=6.8153e+06    0.4s
+  tied      K= 16  params=  10319  train LL=-167.437  held-out LL=-166.559  BIC=6.7997e+06    0.6s
+  tied      K= 32  params=  12383  train LL=-166.675  held-out LL=-166.027  BIC=6.7896e+06    0.6s
+  tied      K= 64  params=  16511  train LL=-165.561  held-out LL=-165.405  BIC=6.7860e+06    0.8s
+  tied      K=128  params=  24767  train LL=-164.524  held-out LL=-165.081  BIC=6.8262e+06    1.6s
+  full      K=  8  params=  67079  train LL=-160.184  held-out LL=-163.484  BIC=7.0717e+06   10.8s
+  full      K= 16  params= 134159  train LL=-156.905  held-out LL=-164.287  BIC=7.6048e+06   18.1s
+  full      K= 32  params= 268319  train LL=-151.334  held-out LL=-168.427  BIC=8.7107e+06   23.5s
+
+cov        K    params  train LL  held-out LL  BIC        AIC        iters  time 
+---------------------------------------------------------------------------------
+spherical  8    1039    -174.728  -173.287     6.999e+06  6.991e+06  44     0.4s 
+spherical  16   2079    -173.670  -172.265     6.967e+06  6.951e+06  38     0.4s 
+spherical  32   4159    -172.445  -171.344     6.939e+06  6.906e+06  19     0.3s 
+spherical  64   8319    -171.172  -170.533     6.929e+06  6.864e+06  33     0.7s 
+spherical  128  16639   -169.946  -170.068     6.963e+06  6.831e+06  50     1.5s 
+diag       8    2055    -171.820  -170.358     6.893e+06  6.877e+06  38     0.4s 
+diag       16   4111    -169.837  -168.830     6.834e+06  6.802e+06  32     0.4s 
+diag       32   8223    -167.730  -167.238     6.791e+06  6.726e+06  41     0.6s 
+diag       64   16447   -165.650  -166.187     6.789e+06  6.659e+06  60     1.2s 
+diag       128  32895   -163.778  -165.819     6.877e+06  6.617e+06  60     2.2s 
+tied       8    9287    -168.084  -166.986     6.815e+06  6.742e+06  23     0.4s 
+tied       16   10319   -167.437  -166.559     6.800e+06  6.718e+06  41     0.6s 
+tied       32   12383   -166.675  -166.027     6.790e+06  6.692e+06  36     0.6s 
+tied       64   16511   -165.561  -165.405     6.786e+06  6.655e+06  38     0.8s 
+tied       128  24767   -164.524  -165.081     6.826e+06  6.630e+06  48     1.6s 
+full       8    67079   -160.184  -163.484     7.072e+06  6.542e+06  40     10.8s
+full       16   134159  -156.905  -164.287     7.605e+06  6.545e+06  54     18.1s
+full       32   268319  -151.334  -168.427     8.711e+06  6.590e+06  52     23.5s
+[fig] /Users/akspai/mla4/figures/fig02a_bic_vs_k.png
+[fig] /Users/akspai/mla4/figures/fig02b_heldout_vs_k.png
+[fig] /Users/akspai/mla4/figures/fig02c_params_k32.png
+
+------------------------------------------------------------------------------
+B/C. INITIALISATION: 25 SEEDS, RANDOM vs K-MEANS (K=64, diag)
+------------------------------------------------------------------------------
+  random : final train LL  mean=-165.9107  sd=0.1021  min=-166.0967  max=-165.7422  spread=0.3545
+           held-out  LL  mean=-166.3296  sd=0.0657  best=-166.2313
+           iterations    mean=78.8   time mean=1.2s
+  kmeans : final train LL  mean=-165.7712  sd=0.0835  min=-165.9293  max=-165.6133  spread=0.3160
+           held-out  LL  mean=-166.2673  sd=0.0612  best=-166.1543
+           iterations    mean=66.0   time mean=1.3s
+[fig] /Users/akspai/mla4/figures/fig02d_init_ll_random.png
+[fig] /Users/akspai/mla4/figures/fig02e_init_compare.png
+[fig] /Users/akspai/mla4/figures/fig02f_convergence.png
+
+------------------------------------------------------------------------------
+D. VALUE OF SELECTING THE BEST OF n INITIALISATIONS
+------------------------------------------------------------------------------
+init    train n=1  n=5        n=25       held n=1   n=5        n=25     
+------------------------------------------------------------------------
+random  -165.9108  -165.7968  -165.7489  -166.3302  -166.2756  -166.2465
+kmeans  -165.7686  -165.6710  -165.6231  -166.2663  -166.2064  -166.1883
+[fig] /Users/akspai/mla4/figures/fig02g_best_of_n.png
+
+------------------------------------------------------------------------------
+E. A DELIBERATELY DEGENERATE COMPONENT, AND REMEDIES
+------------------------------------------------------------------------------
+  Over-parameterised fit: K=64 components, N=400 frames, D=128 dims
+  -> 16447 free parameters estimated from 51200 numbers (0.32 parameters per observation),
+     i.e. about 6.2 frames per component for a 128-dimensional diagonal Gaussian.
+
+  E.1  The symptom: with no variance floor, components collapse onto
+       individual frames and the TRAINING likelihood diverges while the
+       held-out likelihood collapses.
+
+    floor=1e-14  min var=1.00e-14  cond=1.42e+07  components with n_k<1:  0/64  at the floor: 23  train LL=    -24.3  held-out LL=  -185.7
+    floor=1e-12  min var=1.00e-12  cond=1.42e+07  components with n_k<1:  0/64  at the floor: 23  train LL=    -41.3  held-out LL=  -185.7
+    floor=1e-10  min var=1.00e-10  cond=1.42e+07  components with n_k<1:  0/64  at the floor: 23  train LL=    -58.3  held-out LL=  -185.7
+    floor=1e-08  min var=1.00e-08  cond=1.31e+07  components with n_k<1:  0/64  at the floor: 23  train LL=    -75.2  held-out LL=  -185.7
+    floor=1e-06  min var=1.00e-06  cond=1.55e+06  components with n_k<1:  0/64  at the floor: 23  train LL=    -92.1  held-out LL=  -185.7
+    floor=1e-04  min var=1.00e-04  cond=8.58e+04  components with n_k<1:  0/64  at the floor: 23  train LL=   -109.2  held-out LL=  -185.7
+    floor=1e-03  min var=1.00e-03  cond=9.88e+03  components with n_k<1:  0/64  at the floor: 23  train LL=   -117.8  held-out LL=  -185.6
+    floor=1e-02  min var=1.00e-02  cond=1.00e+03  components with n_k<1:  0/64  at the floor: 23  train LL=   -127.0  held-out LL=  -185.1
+
+variance floor  min variance  cond number  n_k<1  at floor  train LL  held-out LL  gap   
+-----------------------------------------------------------------------------------------
+1e-14           1.00e-14      1.42e+07     0      23        -24.3     -185.7       +161.4
+1e-12           1.00e-12      1.42e+07     0      23        -41.3     -185.7       +144.4
+1e-10           1.00e-10      1.42e+07     0      23        -58.3     -185.7       +127.4
+1e-08           1.00e-08      1.31e+07     0      23        -75.2     -185.7       +110.5
+1e-06           1.00e-06      1.55e+06     0      23        -92.1     -185.7       +93.5 
+1e-04           1.00e-04      8.58e+04     0      23        -109.2    -185.7       +76.5 
+1e-03           1.00e-03      9.88e+03     0      23        -117.8    -185.6       +67.8 
+1e-02           1.00e-02      1.00e+03     0      23        -127.0    -185.1       +58.1 
+[fig] /Users/akspai/mla4/figures/fig02h_degeneracy_floor.png
+
+  E.2  Three remedies, each applied to the same degenerate setting
+       (K=64 on 400 frames).  'reinit' re-seeds any component whose
+       occupancy falls below 2% of the frames at a random data point.
+
+  degenerate: no floor, no reinit    min w=2.50e-03  min n_k= 1.00  n_k<1:  0  min var=1.00e-14  cond=1.42e+07  train LL=    -24.3  held-out LL=  -185.7
+  remedy 1: variance floor 1e-3      min w=2.50e-03  min n_k= 1.00  n_k<1:  0  min var=1.00e-03  cond=9.88e+03  train LL=   -117.8  held-out LL=  -185.6
+  remedy 2: reinit low-occupancy     min w=2.50e-03  min n_k= 1.00  n_k<1:  0  min var=1.00e-14  cond=2.97e+02  train LL=   +140.2  held-out LL=  -176.7
+  remedy 3: fewer components (K=8)   min w=2.50e-03  min n_k= 1.00  n_k<1:  0  min var=1.00e-14  cond=1.24e+05  train LL=   -164.2  held-out LL=  -176.2
+  remedies 1+3 (K=8 + floor)         min w=2.50e-03  min n_k= 1.00  n_k<1:  0  min var=1.00e-03  cond=3.40e+03  train LL=   -168.3  held-out LL=  -176.2
+
+configuration                     K   min weight  min n_k  n_k<1  min variance  cond number  train LL  held-out LL
+------------------------------------------------------------------------------------------------------------------
+degenerate: no floor, no reinit   64  2.50e-03    1.00     0      1.00e-14      1.42e+07     -24.3     -185.7     
+remedy 1: variance floor 1e-3     64  2.50e-03    1.00     0      1.00e-03      9.88e+03     -117.8    -185.6     
+remedy 2: reinit low-occupancy    64  2.50e-03    1.00     0      1.00e-14      2.97e+02     +140.2    -176.7     
+remedy 3: fewer components (K=8)  8   2.50e-03    1.00     0      1.00e-14      1.24e+05     -164.2    -176.2     
+remedies 1+3 (K=8 + floor)        8   2.50e-03    1.00     0      1.00e-03      3.40e+03     -168.3    -176.2     
+[fig] /Users/akspai/mla4/figures/fig02i_degenerate_weights.png
+
+------------------------------------------------------------------------------
+F. 2-D PCA PROJECTION (VISUALISATION ONLY)
+------------------------------------------------------------------------------
+  variance explained by PC1/PC2: 6.2% / 4.3%  (the GMMs are fitted on all 128 dims)
+[fig] /Users/akspai/mla4/figures/fig02j_pca_components.png
+
+[saved] /Users/akspai/mla4/results/task2_gmm_behaviour.json

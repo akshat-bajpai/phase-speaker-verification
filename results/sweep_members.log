@@ -1,0 +1,24 @@
+IFD n_fft=1024 win=16ms raw         dev= 1.02%  devrot= 1.86% (rotmean  1.92%)  bkgcv= 1.63% (rotmean  1.25%)  ==>  1.74%
+IFD n_fft=1024 win=16ms tnorm       dev= 1.02%  devrot= 1.43% (rotmean  1.37%)  bkgcv= 1.40% (rotmean  1.38%)  ==>  1.41%
+IFD n_fft=1024 win=16ms asnorm100   dev= 0.61%  devrot= 1.22% (rotmean  1.23%)  bkgcv= 1.09% (rotmean  1.14%)  ==>  1.16%
+IFD n_fft=1024 win=16ms asnormE50   dev= 0.51%  devrot= 1.06% (rotmean  1.08%)  bkgcv= 1.09% (rotmean  1.13%)  ==>  1.08%
+IFD n_fft=1024 win=16ms asnormE100  dev= 0.51%  devrot= 1.07% (rotmean  1.09%)  bkgcv= 1.09% (rotmean  1.10%)  ==>  1.08%
+   [275s]
+IFD n_fft=2048 win=25ms raw         dev= 1.11%  devrot= 1.63% (rotmean  1.59%)  bkgcv= 1.90% (rotmean  1.97%)  ==>  1.77%
+IFD n_fft=2048 win=25ms tnorm       dev= 1.53%  devrot= 1.55% (rotmean  1.51%)  bkgcv= 2.17% (rotmean  2.32%)  ==>  1.86%
+IFD n_fft=2048 win=25ms asnorm100   dev= 1.02%  devrot= 1.22% (rotmean  1.24%)  bkgcv= 2.17% (rotmean  1.99%)  ==>  1.70%
+IFD n_fft=2048 win=25ms asnormE50   dev= 0.61%  devrot= 0.98% (rotmean  1.04%)  bkgcv= 2.16% (rotmean  1.97%)  ==>  1.57%
+IFD n_fft=2048 win=25ms asnormE100  dev= 0.74%  devrot= 0.98% (rotmean  1.03%)  bkgcv= 2.17% (rotmean  1.97%)  ==>  1.58%
+   [314s]
+IFD n_fft=1024 win=20ms raw         dev= 1.53%  devrot= 1.64% (rotmean  1.68%)  bkgcv= 1.73% (rotmean  1.66%)  ==>  1.68%
+IFD n_fft=1024 win=20ms tnorm       dev= 1.02%  devrot= 1.33% (rotmean  1.37%)  bkgcv= 1.99% (rotmean  1.84%)  ==>  1.66%
+IFD n_fft=1024 win=20ms asnorm100   dev= 1.02%  devrot= 1.17% (rotmean  1.26%)  bkgcv= 1.51% (rotmean  1.58%)  ==>  1.34%
+IFD n_fft=1024 win=20ms asnormE50   dev= 1.02%  devrot= 1.02% (rotmean  1.05%)  bkgcv= 1.36% (rotmean  1.56%)  ==>  1.19%
+IFD n_fft=1024 win=20ms asnormE100  dev= 1.02%  devrot= 1.04% (rotmean  1.06%)  bkgcv= 1.36% (rotmean  1.59%)  ==>  1.20%
+   [327s]
+FDPD n_fft=1024 win=20ms raw         dev= 7.14%  devrot= 7.48% (rotmean  7.51%)  bkgcv= 6.02% (rotmean  5.94%)  ==>  6.75%
+FDPD n_fft=1024 win=20ms tnorm       dev= 6.63%  devrot= 6.07% (rotmean  6.00%)  bkgcv= 5.46% (rotmean  5.10%)  ==>  5.76%
+FDPD n_fft=1024 win=20ms asnorm100   dev= 6.63%  devrot= 6.02% (rotmean  6.04%)  bkgcv= 5.05% (rotmean  5.03%)  ==>  5.54%
+FDPD n_fft=1024 win=20ms asnormE50   dev= 6.63%  devrot= 6.07% (rotmean  6.04%)  bkgcv= 5.16% (rotmean  5.20%)  ==>  5.62%
+FDPD n_fft=1024 win=20ms asnormE100  dev= 6.63%  devrot= 5.87% (rotmean  5.88%)  bkgcv= 4.96% (rotmean  4.94%)  ==>  5.41%
+   [302s]

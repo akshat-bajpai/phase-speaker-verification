@@ -1,0 +1,15 @@
+v3 recipe (submitted, LB 2.36%)    dev= 0.68%  devrot= 1.02% (rotmean  0.94%)  bkgcv= 1.09% (rotmean  1.18%)  ==>  1.05%
+final top=50 lam=0.0 delta=-1.0 dev= 0.51%  devrot= 0.71% (rotmean  0.76%)  bkgcv= 0.86% (rotmean  0.66%)  ==>  0.79%
+final top=50 lam=0.25 delta=-1.0 dev= 0.51%  devrot= 0.66% (rotmean  0.67%)  bkgcv= 0.82% (rotmean  0.61%)  ==>  0.74%
+final top=50 lam=0.25 delta=0.0 dev= 0.51%  devrot= 0.66% (rotmean  0.67%)  bkgcv= 0.82% (rotmean  0.60%)  ==>  0.74%
+final top=50 lam=0.5 delta=-1.0 dev= 0.51%  devrot= 0.64% (rotmean  0.65%)  bkgcv= 0.82% (rotmean  0.60%)  ==>  0.73%
+final top=50 lam=0.5 delta=0.0 dev= 0.51%  devrot= 0.61% (rotmean  0.63%)  bkgcv= 0.82% (rotmean  0.58%)  ==>  0.71%
+final top=50 lam=1.0 delta=-1.0 dev= 0.51%  devrot= 0.63% (rotmean  0.64%)  bkgcv= 0.82% (rotmean  0.60%)  ==>  0.72%
+final top=50 lam=1.0 delta=0.0 dev= 0.68%  devrot= 0.64% (rotmean  0.64%)  bkgcv= 0.82% (rotmean  0.57%)  ==>  0.73%
+final top=100 lam=0.0 delta=-1.0 dev= 0.51%  devrot= 0.76% (rotmean  0.78%)  bkgcv= 0.82% (rotmean  0.68%)  ==>  0.79%
+final top=100 lam=0.25 delta=-1.0 dev= 0.51%  devrot= 0.62% (rotmean  0.67%)  bkgcv= 0.82% (rotmean  0.62%)  ==>  0.72%
+final top=100 lam=0.25 delta=0.0 dev= 0.51%  devrot= 0.66% (rotmean  0.68%)  bkgcv= 0.82% (rotmean  0.61%)  ==>  0.74%
+final top=100 lam=0.5 delta=-1.0 dev= 0.51%  devrot= 0.61% (rotmean  0.64%)  bkgcv= 0.82% (rotmean  0.61%)  ==>  0.71%
+final top=100 lam=0.5 delta=0.0 dev= 0.51%  devrot= 0.64% (rotmean  0.63%)  bkgcv= 0.82% (rotmean  0.60%)  ==>  0.73%
+final top=100 lam=1.0 delta=-1.0 dev= 0.51%  devrot= 0.61% (rotmean  0.64%)  bkgcv= 0.82% (rotmean  0.61%)  ==>  0.71%
+final top=100 lam=1.0 delta=0.0 dev= 0.68%  devrot= 0.61% (rotmean  0.64%)  bkgcv= 0.82% (rotmean  0.58%)  ==>  0.71%

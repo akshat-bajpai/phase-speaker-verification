@@ -1,0 +1,26 @@
+single  ifd_w256h48n1024_mel32_c0_d1_cmvn-global_vad1-25_mw1_cs1lag1_K128diag_ dev= 0.51%  devrot= 0.88% (rotmean  0.93%)  bkgcv= 1.09% (rotmean  1.07%)  ==>  0.99%
+single  ifd_w400h48n2048_mel32_c0_d1_cmvn-global_vad1-25_mw1_cs1lag1_K128diag_ dev= 0.51%  devrot= 0.92% (rotmean  0.92%)  bkgcv= 1.95% (rotmean  1.92%)  ==>  1.43%
+single  ifd_w320h48n1024_mel32_c0_d1_cmvn-global_vad1-25_mw1_cs1lag1_K128diag_ dev= 1.02%  devrot= 0.93% (rotmean  0.91%)  bkgcv= 1.36% (rotmean  1.53%)  ==>  1.15%
+single  fdpd_w320h48n1024_mel32_c0_d1_cmvn-global_vad1-25_mw1_K128diag_r16     dev= 5.61%  devrot= 5.66% (rotmean  5.70%)  bkgcv= 5.08% (rotmean  4.94%)  ==>  5.37%
+fuse2 0+1      pen=0    dev= 0.61%  devrot= 0.82% (rotmean  0.87%)  bkgcv= 1.63% (rotmean  1.27%)  ==>  1.22%
+fuse2 0+1      pen=0.25 dev= 0.49%  devrot= 0.71% (rotmean  0.77%)  bkgcv= 1.60% (rotmean  1.18%)  ==>  1.16%
+fuse2 0+2      pen=0    dev= 0.68%  devrot= 0.97% (rotmean  1.00%)  bkgcv= 1.19% (rotmean  1.03%)  ==>  1.08%
+fuse2 0+2      pen=0.25 dev= 0.51%  devrot= 0.77% (rotmean  0.75%)  bkgcv= 1.12% (rotmean  1.03%)  ==>  0.94%
+fuse2 0+3      pen=0    dev= 1.02%  devrot= 1.27% (rotmean  1.25%)  bkgcv= 1.63% (rotmean  1.40%)  ==>  1.45%
+fuse2 0+3      pen=0.25 dev= 1.02%  devrot= 0.96% (rotmean  1.02%)  bkgcv= 1.63% (rotmean  1.31%)  ==>  1.29%
+fuse2 1+2      pen=0    dev= 0.68%  devrot= 0.92% (rotmean  0.87%)  bkgcv= 1.36% (rotmean  1.48%)  ==>  1.14%
+fuse2 1+2      pen=0.25 dev= 0.51%  devrot= 0.78% (rotmean  0.74%)  bkgcv= 1.36% (rotmean  1.49%)  ==>  1.07%
+fuse2 1+3      pen=0    dev= 0.55%  devrot= 1.02% (rotmean  0.94%)  bkgcv= 1.63% (rotmean  1.70%)  ==>  1.33%
+fuse2 1+3      pen=0.25 dev= 0.51%  devrot= 0.84% (rotmean  0.87%)  bkgcv= 1.63% (rotmean  1.64%)  ==>  1.23%
+fuse2 2+3      pen=0    dev= 0.86%  devrot= 1.06% (rotmean  1.12%)  bkgcv= 1.67% (rotmean  1.44%)  ==>  1.36%
+fuse2 2+3      pen=0.25 dev= 0.68%  devrot= 0.91% (rotmean  0.92%)  bkgcv= 1.63% (rotmean  1.35%)  ==>  1.27%
+fuse3 0+1+2    pen=0    dev= 0.98%  devrot= 0.93% (rotmean  0.91%)  bkgcv= 1.22% (rotmean  1.02%)  ==>  1.08%
+fuse3 0+1+2    pen=0.25 dev= 0.55%  devrot= 0.71% (rotmean  0.70%)  bkgcv= 1.13% (rotmean  1.00%)  ==>  0.92%
+fuse3 0+1+3    pen=0    dev= 0.51%  devrot= 0.87% (rotmean  0.86%)  bkgcv= 0.90% (rotmean  1.13%)  ==>  0.88%
+fuse3 0+1+3    pen=0.25 dev= 0.51%  devrot= 0.64% (rotmean  0.68%)  bkgcv= 0.82% (rotmean  1.07%)  ==>  0.73%
+fuse3 0+2+3    pen=0    dev= 0.51%  devrot= 0.92% (rotmean  0.94%)  bkgcv= 1.09% (rotmean  1.07%)  ==>  1.00%
+fuse3 0+2+3    pen=0.25 dev= 0.51%  devrot= 0.77% (rotmean  0.73%)  bkgcv= 1.02% (rotmean  1.03%)  ==>  0.89%
+fuse3 1+2+3    pen=0    dev= 0.51%  devrot= 0.87% (rotmean  0.87%)  bkgcv= 1.09% (rotmean  1.17%)  ==>  0.98%
+fuse3 1+2+3    pen=0.25 dev= 0.51%  devrot= 0.66% (rotmean  0.68%)  bkgcv= 1.09% (rotmean  1.12%)  ==>  0.88%
+fuse4 0+1+2+3  pen=0    dev= 0.51%  devrot= 0.79% (rotmean  0.81%)  bkgcv= 0.86% (rotmean  1.02%)  ==>  0.82%
+fuse4 0+1+2+3  pen=0.25 dev= 0.51%  devrot= 0.61% (rotmean  0.65%)  bkgcv= 0.82% (rotmean  0.96%)  ==>  0.71%

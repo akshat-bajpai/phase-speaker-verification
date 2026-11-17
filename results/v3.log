@@ -1,0 +1,6 @@
+=== FUSION: normalisation variants (all 3 protocols) ===
+  fusion raw                 dev= 0.74%  bkg= 1.48%  loo= 2.86%   MEAN= 1.69%  [30s]
+  fusion + T-norm (v2)       dev= 0.98%  bkg= 1.09%  loo= 2.06%   MEAN= 1.38%  [80s]
+  fusion + as-norm top-50    dev= 0.61%  bkg= 1.09%  loo= 2.06%   MEAN= 1.25%  [136s]
+  fusion + as-norm top-100   dev= 0.61%  bkg= 1.09%  loo= 2.06%   MEAN= 1.25%  [142s]
+  fusion + as-norm top-150   dev= 0.61%  bkg= 1.26%  loo= 2.18%   MEAN= 1.35%  [146s]

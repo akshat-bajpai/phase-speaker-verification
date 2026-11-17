@@ -1,0 +1,12 @@
+A bands:0-16           raw         dev= 3.06%  devrot= 3.67% (rotmean  3.69%)  bkgcv= 2.77% (rotmean  2.97%)  ==>  3.22%
+A bands:0-16           tnorm       dev= 2.55%  devrot= 2.60% (rotmean  2.53%)  bkgcv= 2.66% (rotmean  2.91%)  ==>  2.63%
+A bands:0-16           asnorm100   dev= 1.66%  devrot= 2.65% (rotmean  2.54%)  bkgcv= 2.45% (rotmean  2.84%)  ==>  2.55%
+A bands:0-16           asnormE50   dev= 2.04%  devrot= 2.34% (rotmean  2.32%)  bkgcv= 2.46% (rotmean  2.88%)  ==>  2.40%
+A bands:0-16           asnormE100  dev= 2.04%  devrot= 2.35% (rotmean  2.32%)  bkgcv= 2.45% (rotmean  2.79%)  ==>  2.40%
+   [271s]
+A bands:16-32          raw         dev= 7.14%  devrot= 6.22% (rotmean  6.29%)  bkgcv= 5.69% (rotmean  5.57%)  ==>  5.96%
+A bands:16-32          tnorm       dev= 6.12%  devrot= 5.20% (rotmean  5.30%)  bkgcv= 5.15% (rotmean  5.18%)  ==>  5.18%
+A bands:16-32          asnorm100   dev= 6.12%  devrot= 5.20% (rotmean  5.21%)  bkgcv= 4.89% (rotmean  4.72%)  ==>  5.05%
+A bands:16-32          asnormE50   dev= 6.12%  devrot= 5.20% (rotmean  5.15%)  bkgcv= 4.68% (rotmean  4.64%)  ==>  4.94%
+A bands:16-32          asnormE100  dev= 6.12%  devrot= 5.15% (rotmean  5.13%)  bkgcv= 4.71% (rotmean  4.62%)  ==>  4.93%
+   [217s]

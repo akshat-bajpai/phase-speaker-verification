@@ -1,0 +1,30 @@
+==============================================================================
+TASK 3 -- UBM TRAINING
+==============================================================================
+[cache] hit  feat_ifd_w400h48n512_mel32_c0_d1_cmvn-global_vad1-30_mw1_cs1lag1.pt  (3601 files, dim=128)
+
+Background speakers        : 786 (1436 recordings)
+UBM-training split         : 1287 recordings, 222389 frames x 128 dims
+Held-out split (disjoint)  : 149 recordings, 26509 frames   [seed 2026]
+Frame subsampling          : none
+EM settings                : init=kmeans, max_iter=100, rel. tol=0.0001, variance floor=0.001, dtype=float64
+  diag  K=  16  params=   4111  train LL=-169.972  held-out LL=-168.625  iters= 14     3.2s  dev EER= 1.23% [0.67-1.72]
+  diag  K=  32  params=   8223  train LL=-168.079  held-out LL=-166.923  iters= 19     4.4s  dev EER= 1.97% [1.13-2.62]
+  diag  K=  64  params=  16447  train LL=-166.421  held-out LL=-165.613  iters= 19     7.5s  dev EER= 1.53% [0.98-2.67]
+  diag  K= 128  params=  32895  train LL=-164.856  held-out LL=-164.430  iters= 24    15.2s  dev EER= 1.02% [0.49-1.64]
+  diag  K= 256  params=  65791  train LL=-163.500  held-out LL=-163.510  iters= 23    27.5s  dev EER= 1.53% [0.74-2.14]
+
+cov   K    params  train LL  held-out LL  gap     iters  conv  time   min n_k  dev EER  95% CI     
+---------------------------------------------------------------------------------------------------
+diag  16   4111    -169.972  -168.625     -1.348  14     True  3.2s   2100.4   1.23%    [0.67-1.72]
+diag  32   8223    -168.079  -166.923     -1.157  19     True  4.4s   1262.6   1.97%    [1.13-2.62]
+diag  64   16447   -166.421  -165.613     -0.808  19     True  7.5s   48.0     1.53%    [0.98-2.67]
+diag  128  32895   -164.856  -164.430     -0.425  24     True  15.2s  2.0      1.02%    [0.49-1.64]
+diag  256  65791   -163.500  -163.510     +0.010  23     True  27.5s  2.0      1.53%    [0.74-2.14]
+[fig] /Users/akspai/mla4/figures/fig03a_ll_vs_k_diag.png
+[fig] /Users/akspai/mla4/figures/fig03b_eer_vs_k_diag.png
+[fig] /Users/akspai/mla4/figures/fig03c_time_vs_k_diag.png
+[fig] /Users/akspai/mla4/figures/fig03d_convergence.png
+
+[saved] /Users/akspai/mla4/results/task3_ubm.json
+[saved] UBM checkpoints in /Users/akspai/mla4/cache/ubm_*.pt

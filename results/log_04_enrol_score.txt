@@ -1,0 +1,117 @@
+==============================================================================
+TASKS 4 & 5 -- MAP ADAPTATION, ENROLMENT AND SCORING
+==============================================================================
+[cache] hit  feat_ifd_w400h48n512_mel32_c0_d1_cmvn-global_vad1-30_mw1_cs1lag1.pt  (3601 files, dim=128)
+
+UBM: K=128, diag covariance, D=128
+Dev protocol: 97 enrolled speakers, 1824 trials (196 genuine, 1628 impostor), 456 distinct test recordings
+
+------------------------------------------------------------------------------
+4a. ENROLMENT STATISTICS AND COMPONENT OCCUPANCY
+------------------------------------------------------------------------------
+utterances  frames pooled  components with n_k>0  occupied  max n_k
+-------------------------------------------------------------------
+1           128.9          83.1/128               65.0%     16.7   
+2           259.3          93.0/128               72.7%     29.5   
+3           389.7          96.6/128               75.4%     41.0   
+
+  Components with zero enrolment occupancy keep their UBM mean exactly,
+  so a speaker model always remains a proper density over the whole
+  feature space -- this is what makes 3 x 1 s of enrolment usable.
+
+------------------------------------------------------------------------------
+4b. RELEVANCE FACTOR r
+------------------------------------------------------------------------------
+  r=   0.5  dev EER= 7.65%  [5.19- 9.34]  mean ||mu_s - mu_ubm||=50.913
+  r=   1.0  dev EER= 6.33%  [4.02- 7.37]  mean ||mu_s - mu_ubm||=42.400
+  r=   2.0  dev EER= 3.75%  [2.21- 4.81]  mean ||mu_s - mu_ubm||=33.042
+  r=   4.0  dev EER= 1.53%  [0.96- 2.48]  mean ||mu_s - mu_ubm||=24.025
+  r=   8.0  dev EER= 1.02%  [0.51- 1.89]  mean ||mu_s - mu_ubm||=16.338
+  r=  16.0  dev EER= 1.02%  [0.49- 1.64]  mean ||mu_s - mu_ubm||=10.451
+  r=  32.0  dev EER= 1.53%  [0.85- 2.15]  mean ||mu_s - mu_ubm||= 6.332
+  r=  64.0  dev EER= 2.04%  [1.05- 2.74]  mean ||mu_s - mu_ubm||= 3.659
+  r= 128.0  dev EER= 2.33%  [1.46- 3.32]  mean ||mu_s - mu_ubm||= 2.028
+  r= 256.0  dev EER= 2.58%  [1.70- 4.00]  mean ||mu_s - mu_ubm||= 1.085
+r    dev EER  95% CI       mean mean-drift  AUC   
+--------------------------------------------------
+0.5  7.65%    [5.19-9.34]  50.913           0.9841
+1    6.33%    [4.02-7.37]  42.400           0.9911
+2    3.75%    [2.21-4.81]  33.042           0.9971
+4    1.53%    [0.96-2.48]  24.025           0.9991
+8    1.02%    [0.51-1.89]  16.338           0.9994
+16   1.02%    [0.49-1.64]  10.451           0.9995
+32   1.53%    [0.85-2.15]  6.332            0.9992
+64   2.04%    [1.05-2.74]  3.659            0.9987
+128  2.33%    [1.46-3.32]  2.028            0.9980
+256  2.58%    [1.70-4.00]  1.085            0.9971
+[fig] /Users/akspai/mla4/figures/fig04a_eer_vs_r.png
+
+  Limiting behaviour of alpha_k = n_k / (n_k + r):
+    (K=128; 61 components have n_k >= 1 frame, 3 have n_k == 0 exactly)
+    r=    1e-08: max|mu-mu_UBM|=4.315e+00   max|mu-mu_ML| over n_k>=1 =2.360e-08 ( 0.000% of the ML scale)
+    r=    1e+00: max|mu-mu_UBM|=2.152e+00   max|mu-mu_ML| over n_k>=1 =1.347e+00 (33.364% of the ML scale)
+    r=    2e+01: max|mu-mu_UBM|=1.310e+00   max|mu-mu_ML| over n_k>=1 =2.896e+00 (71.737% of the ML scale)
+    r=    1e+08: max|mu-mu_UBM|=1.192e-06   max|mu-mu_ML| over n_k>=1 =3.136e+00 (77.694% of the ML scale)
+    r -> 0   : alpha -> 1, the mean becomes the enrolment ML estimate
+               (maximally specific, maximally over-fitted)
+    r -> inf : alpha -> 0, the speaker model collapses onto the UBM
+               (the LLR then tends to 0 for every trial)
+
+------------------------------------------------------------------------------
+4c. WHAT TO ADAPT, AND MAP vs TRAINING FROM SCRATCH
+------------------------------------------------------------------------------
+  mean only (required baseline)    dev EER= 1.02%  [0.49- 1.64]
+  mean + weights                   dev EER= 1.23%  [0.73- 1.77]
+  mean + covariances               dev EER= 0.92%  [0.43- 1.24]
+  mean + weights + covariances     dev EER= 0.98%  [0.37- 1.53]
+
+  Speaker GMMs trained from scratch on the 3 enrolment utterances:
+  from scratch, K=2                dev EER=13.78%  [11.23-16.98]
+  from scratch, K=4                dev EER= 8.16%  [6.12-10.50]
+  from scratch, K=8                dev EER= 7.13%  [5.59- 9.00]
+  from scratch, K=16               dev EER= 9.64%  [7.03-11.36]
+
+speaker model                  dev EER  95% CI       
+-----------------------------------------------------
+mean only (required baseline)  1.02%    [0.49-1.64]  
+mean + weights                 1.23%    [0.73-1.77]  
+mean + covariances             0.92%    [0.43-1.24]  
+mean + weights + covariances   0.98%    [0.37-1.53]  
+from scratch, K=2              13.78%   [11.23-16.98]
+from scratch, K=4              8.16%    [6.12-10.50] 
+from scratch, K=8              7.13%    [5.59-9.00]  
+from scratch, K=16             9.64%    [7.03-11.36] 
+[fig] /Users/akspai/mla4/figures/fig04b_adaptation_variants.png
+
+------------------------------------------------------------------------------
+5. VERIFICATION AND SCORING (final configuration)
+------------------------------------------------------------------------------
+  T-norm cohort: 150 background speakers (3 utterances each, MAP-adapted with the same r)
+  Z-norm impostor utterances: 149 held-out background recordings
+  none   : EER= 1.02%  [95% CI 0.49- 1.61]  AUC=0.9995  minDCF(p=0.01)=0.1276
+  tnorm  : EER= 0.61%  [95% CI 0.31- 1.05]  AUC=0.9998  minDCF(p=0.01)=0.0816
+  znorm  : EER= 1.17%  [95% CI 0.61- 2.13]  AUC=0.9993  minDCF(p=0.01)=0.1833
+  ztnorm : EER= 1.04%  [95% CI 0.52- 1.86]  AUC=0.9995  minDCF(p=0.01)=0.0714
+[fig] /Users/akspai/mla4/figures/fig05a_det.png
+[fig] /Users/akspai/mla4/figures/fig05b_roc.png
+[fig] /Users/akspai/mla4/figures/fig05c_score_hist.png
+[fig] /Users/akspai/mla4/figures/fig05d_score_hist_raw.png
+
+  Operating points (final system):
+operating point              threshold  FAR    FRR  
+----------------------------------------------------
+EER threshold (balanced)     +2.4591    0.61%  0.51%
+high security (FAR<=1%)      +2.0558    0.98%  0.00%
+balanced-security (FAR<=5%)  +1.3729    4.98%  0.00%
+convenience (FAR<=10%)       +1.0423    9.95%  0.00%
+[fig] /Users/akspai/mla4/figures/fig05e_far_frr.png
+
+  Chosen operating point for the stated use case
+  ('unlocking a shared device by voice -- a false accept is a security
+   breach, a false reject is a retry'):  FAR <= 1%
+    threshold = +2.0558  ->  FAR = 0.98%, FRR = 0.00%
+
+[saved] /Users/akspai/mla4/results/dev_results.csv  (1824 rows)
+
+FINAL DEV RESULT: EER = 0.61% (95% bootstrap CI 0.31-1.05%), AUC = 0.9998
+[saved] /Users/akspai/mla4/results/task45_enrol_score.json

@@ -1,0 +1,10 @@
+cohort: 150 speakers, 450 impostor utterances
+
+=== single system A: normalisation variants ===
+  raw                        dev= 1.02%  bkg= 2.17%  loo= 3.09%   MEAN= 2.10%  [8s]
+  T-norm (all 150)           dev= 1.02%  bkg= 1.09%  loo= 2.41%   MEAN= 1.50%  [19s]
+  as-norm sym top-20         dev= 0.80%  bkg= 1.60%  loo= 1.72%   MEAN= 1.37%  [559s]
+  as-norm sym top-50         dev= 0.61%  bkg= 1.60%  loo= 2.06%   MEAN= 1.42%  [43s]
+  as-norm sym top-100        dev= 0.61%  bkg= 1.09%  loo= 2.18%   MEAN= 1.29%  [37s]
+  as-norm sym top-150        dev= 0.61%  bkg= 1.14%  loo= 2.41%   MEAN= 1.39%  [36s]
+  as-norm utt-only top-50    dev= 0.68%  bkg= 1.60%  loo= 1.72%   MEAN= 1.33%  [20s]

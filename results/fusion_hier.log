@@ -1,0 +1,18 @@
+IFD['A', 'B', 'C'] GD['F20'] wg=0.2 dev= 0.51%  devrot= 0.56% (rotmean  0.62%)  bkgcv= 0.82% (rotmean  0.91%)  ==>  0.69%
+IFD['A', 'B', 'C'] GD['F20'] wg=0.3 dev= 0.51%  devrot= 0.66% (rotmean  0.68%)  bkgcv= 0.86% (rotmean  1.00%)  ==>  0.76%
+IFD['A', 'B', 'C'] GD['F20'] wg=0.4 dev= 0.51%  devrot= 0.66% (rotmean  0.67%)  bkgcv= 0.99% (rotmean  1.11%)  ==>  0.83%
+IFD['A', 'B', 'C'] GD['F16', 'F20', 'F32', 'GDCC'] wg=0.2 dev= 0.51%  devrot= 0.51% (rotmean  0.64%)  bkgcv= 0.99% (rotmean  0.74%)  ==>  0.75%
+IFD['A', 'B', 'C'] GD['F16', 'F20', 'F32', 'GDCC'] wg=0.3 dev= 0.51%  devrot= 0.66% (rotmean  0.67%)  bkgcv= 0.82% (rotmean  0.61%)  ==>  0.74%
+IFD['A', 'B', 'C'] GD['F16', 'F20', 'F32', 'GDCC'] wg=0.4 dev= 0.51%  devrot= 0.67% (rotmean  0.70%)  bkgcv= 0.82% (rotmean  0.57%)  ==>  0.74%
+IFD['A', 'Amp', 'B', 'C'] GD['F20'] wg=0.2 dev= 0.51%  devrot= 0.56% (rotmean  0.59%)  bkgcv= 1.09% (rotmean  0.90%)  ==>  0.82%
+IFD['A', 'Amp', 'B', 'C'] GD['F20'] wg=0.3 dev= 0.51%  devrot= 0.66% (rotmean  0.67%)  bkgcv= 0.91% (rotmean  1.03%)  ==>  0.79%
+IFD['A', 'Amp', 'B', 'C'] GD['F20'] wg=0.4 dev= 0.51%  devrot= 0.66% (rotmean  0.65%)  bkgcv= 1.09% (rotmean  1.11%)  ==>  0.88%
+IFD['A', 'Amp', 'B', 'C'] GD['F16', 'F20', 'F32', 'GDCC'] wg=0.2 dev= 0.51%  devrot= 0.52% (rotmean  0.58%)  bkgcv= 1.09% (rotmean  0.73%)  ==>  0.80%
+IFD['A', 'Amp', 'B', 'C'] GD['F16', 'F20', 'F32', 'GDCC'] wg=0.3 dev= 0.51%  devrot= 0.61% (rotmean  0.62%)  bkgcv= 0.92% (rotmean  0.64%)  ==>  0.77%
+IFD['A', 'Amp', 'B', 'C'] GD['F16', 'F20', 'F32', 'GDCC'] wg=0.4 dev= 0.51%  devrot= 0.67% (rotmean  0.58%)  bkgcv= 0.82% (rotmean  0.58%)  ==>  0.74%
+IFD['A', 'Amp', 'B', 'C', 'A2k'] GD['F20'] wg=0.2 dev= 0.51%  devrot= 0.56% (rotmean  0.61%)  bkgcv= 1.07% (rotmean  0.88%)  ==>  0.81%
+IFD['A', 'Amp', 'B', 'C', 'A2k'] GD['F20'] wg=0.3 dev= 0.51%  devrot= 0.61% (rotmean  0.67%)  bkgcv= 0.94% (rotmean  1.02%)  ==>  0.78%
+IFD['A', 'Amp', 'B', 'C', 'A2k'] GD['F20'] wg=0.4 dev= 0.51%  devrot= 0.71% (rotmean  0.65%)  bkgcv= 1.09% (rotmean  1.12%)  ==>  0.90%
+IFD['A', 'Amp', 'B', 'C', 'A2k'] GD['F16', 'F20', 'F32', 'GDCC'] wg=0.2 dev= 0.51%  devrot= 0.51% (rotmean  0.57%)  bkgcv= 1.09% (rotmean  0.73%)  ==>  0.80%
+IFD['A', 'Amp', 'B', 'C', 'A2k'] GD['F16', 'F20', 'F32', 'GDCC'] wg=0.3 dev= 0.51%  devrot= 0.61% (rotmean  0.63%)  bkgcv= 0.88% (rotmean  0.60%)  ==>  0.75%
+IFD['A', 'Amp', 'B', 'C', 'A2k'] GD['F16', 'F20', 'F32', 'GDCC'] wg=0.4 dev= 0.51%  devrot= 0.64% (rotmean  0.61%)  bkgcv= 0.82% (rotmean  0.57%)  ==>  0.73%

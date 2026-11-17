@@ -1,0 +1,17 @@
+==============================================================================
+SUBMISSION v2 -- 4-way fusion, score norm = tnorm
+==============================================================================
+
+dev : 1824 trials (196 genuine), 97 targets
+eval: 3524 trials, 179 targets, 881 test recordings
+  IFD n_fft=1024 win=16ms    dim=128  K=128  dev EER= 1.02%   [30s]
+  IFD n_fft=2048 win=25ms    dim=128  K=128  dev EER= 1.53%   [47s]
+  IFD n_fft=1024 win=20ms    dim=128  K=128  dev EER= 1.02%   [34s]
+  FDPD n_fft=1024 win=20ms   dim=128  K=128  dev EER= 6.63%   [931s]
+
+FUSED dev EER = 0.98% (95% CI 0.46-1.65%), AUC = 0.9997
+eval scores: mean=-0.0000 sd=0.9529 min=-3.7410 max=+9.0127 finite=True
+
+[saved] /Users/akspai/mla4/submissions/submission_v2.csv
+  [validated] 3524 rows, unique ids, finite scores, header ok
+[saved] /Users/akspai/mla4/results/dev_results_v2.csv

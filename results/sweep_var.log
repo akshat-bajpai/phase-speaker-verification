@@ -1,0 +1,12 @@
+A r=16 rvar=16         raw         dev= 1.02%  devrot= 1.62% (rotmean  1.62%)  bkgcv= 1.36% (rotmean  1.42%)  ==>  1.49%
+A r=16 rvar=16         tnorm       dev= 1.53%  devrot= 1.48% (rotmean  1.39%)  bkgcv= 2.04% (rotmean  1.99%)  ==>  1.76%
+A r=16 rvar=16         asnorm100   dev= 0.51%  devrot= 1.28% (rotmean  1.25%)  bkgcv= 1.36% (rotmean  1.35%)  ==>  1.32%
+A r=16 rvar=16         asnormE50   dev= 0.51%  devrot= 1.17% (rotmean  1.01%)  bkgcv= 1.36% (rotmean  1.33%)  ==>  1.27%
+A r=16 rvar=16         asnormE100  dev= 0.51%  devrot= 1.17% (rotmean  1.01%)  bkgcv= 1.36% (rotmean  1.32%)  ==>  1.27%
+   [468s]
+A r=16 rvar=64         raw         dev= 1.11%  devrot= 1.79% (rotmean  1.73%)  bkgcv= 1.63% (rotmean  1.51%)  ==>  1.71%
+A r=16 rvar=64         tnorm       dev= 1.53%  devrot= 1.99% (rotmean  1.95%)  bkgcv= 2.17% (rotmean  1.99%)  ==>  2.08%
+A r=16 rvar=64         asnorm100   dev= 0.55%  devrot= 1.33% (rotmean  1.29%)  bkgcv= 1.81% (rotmean  1.43%)  ==>  1.57%
+A r=16 rvar=64         asnormE50   dev= 0.51%  devrot= 1.20% (rotmean  1.11%)  bkgcv= 1.90% (rotmean  1.48%)  ==>  1.55%
+A r=16 rvar=64         asnormE100  dev= 0.51%  devrot= 1.20% (rotmean  1.15%)  bkgcv= 1.74% (rotmean  1.41%)  ==>  1.47%
+   [466s]
